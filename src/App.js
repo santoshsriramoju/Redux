@@ -8,6 +8,7 @@ import store from './store/index';
   render() {
     return (
       <div>
+        //Incrementing component
         <Counter store={store}/>
       </div>
     )
